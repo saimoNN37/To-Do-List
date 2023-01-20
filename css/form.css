@@ -16,6 +16,11 @@
     border: 1px solid #ccc;
 }
 
+@media(max-width: 767px){
+    .form__input {
+        padding: 10px;
+    }
+}
 .form__button {
     background-color: hsl(180, 100%, 25%);
     color: white;

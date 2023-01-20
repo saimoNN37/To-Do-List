@@ -8,4 +8,5 @@ html {
 body{
     font-family: 'Lato', sans-serif;
     background-color: #ccc;
+    word-break: break-word;
 }
