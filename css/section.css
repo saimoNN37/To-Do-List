@@ -1,0 +1,23 @@
+.section {
+    background-color: white;
+    margin: 0;
+}
+
+.section__header {
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+
+.section__list{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px;
+}
+
+.section__tasks{
+    padding: 20px;
+    margin: 0;
+}
