@@ -20,4 +20,8 @@
 .section__tasks{
     padding: 20px;
     margin: 0;
+    background-color: white;
+}
+.section__tasks-item{
+    padding-left: 0px;
 }
