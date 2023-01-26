@@ -22,10 +22,14 @@
     }
 }
 
+.section__buttons{
+    padding: 10px;
+}
+
 @media(max-width: 767px) {
     .section__buttons {
         display: grid;
-        grid-template-rows: auto;
+        gap: 10px;
     }
 }
 .section__list{
