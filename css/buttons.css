@@ -1,0 +1,20 @@
+.completeAllButton {
+    color: hsl(180, 100%, 25%);
+    border: none;
+    background-color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.completeAllButton:disabled {
+    color: rgb(184, 179, 179);
+}
+
+.HideShowButton {
+    color: teal;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    transition: 1s;
+}

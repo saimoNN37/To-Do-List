@@ -6,10 +6,28 @@
 .section__header {
     padding: 10px;
     font-weight: bold;
-    border-bottom: 1px solid #ccc;
     margin: 0;
 }
 
+.section__mainHeader {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+@media(max-width: 767px) {
+    .section__mainHeader {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 767px) {
+    .section__buttons {
+        display: grid;
+        grid-template-rows: auto;
+    }
+}
 .section__list{
     border-bottom: 1px solid #ccc;
     padding: 10px;

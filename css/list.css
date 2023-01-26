@@ -34,6 +34,7 @@
 
 .list__button-remove:hover{
     background-color: hsl(348, 83%, 52%);
+    transition: 0.5s;
 }
 
 .list__button-remove:active{
@@ -42,6 +43,7 @@
 
 .list__button:hover{
     background-color: hsl(120, 100%, 30%);
+    transition: 0.5s;
 }
 
 .list__button:active{
