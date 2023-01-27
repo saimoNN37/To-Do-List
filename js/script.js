@@ -101,7 +101,7 @@
         if (tasks.length > 0) {
             htmlButtons += `
             <button class="buttonsToHideAndDone js-hideDoneTasks">
-                ${hideDoneTasks === false ? "Ukryj" : "Pokaż"} ukończone 
+                ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone 
             </button>
             <button class="buttonsToHideAndDone js-completeTasks"${tasks.every(({ done }) => done) ? "disabled" : ""}>
                 Ukończ wszystkie
@@ -126,6 +126,7 @@
         if (newTaskContent === "") {
             return;
         }
+
         addNewTask(newTaskContent);
         focusAndClear(newTask);
     }
