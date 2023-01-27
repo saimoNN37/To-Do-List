@@ -10,3 +10,9 @@
 .buttonsToHideAndDone:disabled {
     color: rgb(184, 179, 179);
 }
+.buttonsToHideAndDone:hover {
+    color: hsl(180, 100%, 30%);
+}
+.buttonsToHideAndDone:active {
+    color: hsl(180, 100%, 35%);
+}
