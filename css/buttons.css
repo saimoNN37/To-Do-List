@@ -1,19 +1,12 @@
-.completeAllButton {
+.buttonsToHideAndDone {
     color: hsl(180, 100%, 25%);
     border: none;
     background-color: white;
     font-size: 15px;
     transition: 1s;
+    cursor: pointer;
 }
 
-.completeAllButton:disabled {
+.buttonsToHideAndDone:disabled {
     color: rgb(184, 179, 179);
-}
-
-.HideShowButton {
-    color: teal;
-    border: none;
-    background-color: white;
-    font-size: 15px;
-    transition: 1s;
 }
